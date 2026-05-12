@@ -1,0 +1,13 @@
+release/main.o
+release/aiplayer.o
+release/dualgame.o
+release/menuscreen.o
+release/tetrisboard.o
+release/tetriswindow.o
+release/vsaigame.o
+release/moc_aiplayer.o
+release/moc_dualgame.o
+release/moc_menuscreen.o
+release/moc_tetrisboard.o
+release/moc_tetriswindow.o
+release/moc_vsaigame.o

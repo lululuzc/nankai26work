@@ -1,0 +1,26 @@
+# ninja log v7
+2	374	7999422786938815	tetris_autogen/timestamp	b4d29c1a0dc0ba6a
+2	374	7999422786938815	tetris_autogen/mocs_compilation.cpp	b4d29c1a0dc0ba6a
+2	374	7999422786938815	D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/tetris_autogen/timestamp	b4d29c1a0dc0ba6a
+2	374	7999422786938815	D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/tetris_autogen/mocs_compilation.cpp	b4d29c1a0dc0ba6a
+387	1799	7999422787560466	CMakeFiles/tetris.dir/tetrisboard.cpp.obj	774c9fc2c799f475
+383	1971	7999422787519048	CMakeFiles/tetris.dir/tetris_autogen/mocs_compilation.cpp.obj	86199314bfa2d296
+7	411	7999423581923735	tetris_autogen/timestamp	b4d29c1a0dc0ba6a
+7	411	7999423581923735	tetris_autogen/mocs_compilation.cpp	b4d29c1a0dc0ba6a
+7	411	7999423581923735	D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/tetris_autogen/timestamp	b4d29c1a0dc0ba6a
+7	411	7999423581923735	D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/tetris_autogen/mocs_compilation.cpp	b4d29c1a0dc0ba6a
+414	2257	7999423582653752	CMakeFiles/tetris.dir/tetris_autogen/mocs_compilation.cpp.obj	86199314bfa2d296
+7	392	7999425509351842	tetris_autogen/timestamp	b4d29c1a0dc0ba6a
+7	392	7999425509351842	tetris_autogen/mocs_compilation.cpp	b4d29c1a0dc0ba6a
+7	392	7999425509351842	D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/tetris_autogen/timestamp	b4d29c1a0dc0ba6a
+7	392	7999425509351842	D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/tetris_autogen/mocs_compilation.cpp	b4d29c1a0dc0ba6a
+393	2525	7999425509977729	CMakeFiles/tetris.dir/tetris_autogen/mocs_compilation.cpp.obj	86199314bfa2d296
+7	444	7999429288227470	tetris_autogen/timestamp	b4d29c1a0dc0ba6a
+7	444	7999429288227470	tetris_autogen/mocs_compilation.cpp	b4d29c1a0dc0ba6a
+7	444	7999429288227470	D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/tetris_autogen/timestamp	b4d29c1a0dc0ba6a
+7	444	7999429288227470	D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/tetris_autogen/mocs_compilation.cpp	b4d29c1a0dc0ba6a
+455	2460	7999429289114346	CMakeFiles/tetris.dir/tetrisboard.cpp.obj	774c9fc2c799f475
+449	2486	7999429289048950	CMakeFiles/tetris.dir/main.cpp.obj	c8ff1958c825e3db
+445	2568	7999429289011589	CMakeFiles/tetris.dir/tetris_autogen/mocs_compilation.cpp.obj	86199314bfa2d296
+459	2888	7999429289152736	CMakeFiles/tetris.dir/tetriswindow.cpp.obj	e31f87381e54f822
+2888	3128	7999429313446750	tetris.exe	5c9a88e14c29887b

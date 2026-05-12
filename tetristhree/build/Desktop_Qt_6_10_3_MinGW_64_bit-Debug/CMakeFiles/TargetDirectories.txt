@@ -1,0 +1,5 @@
+D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/CMakeFiles/tetris.dir
+D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/CMakeFiles/tetris_autogen_timestamp_deps.dir
+D:/compile/qt/tetris/build/Desktop_Qt_6_10_3_MinGW_64_bit-Debug/CMakeFiles/tetris_autogen.dir

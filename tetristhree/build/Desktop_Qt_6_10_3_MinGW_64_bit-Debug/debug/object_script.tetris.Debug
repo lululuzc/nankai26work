@@ -1,0 +1,13 @@
+debug/main.o
+debug/aiplayer.o
+debug/dualgame.o
+debug/menuscreen.o
+debug/tetrisboard.o
+debug/tetriswindow.o
+debug/vsaigame.o
+debug/moc_aiplayer.o
+debug/moc_dualgame.o
+debug/moc_menuscreen.o
+debug/moc_tetrisboard.o
+debug/moc_tetriswindow.o
+debug/moc_vsaigame.o
