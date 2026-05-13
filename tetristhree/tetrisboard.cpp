@@ -174,9 +174,8 @@ const QVector<QVector<bool>> &TetrisBoard::currentLayout() const
 bool TetrisBoard::collides(int dx, int dy, int rot) const
 {
     const auto &layout = m_pieces[m_curPiece].layouts[rot];
-    int size = layout.size();
-    for (int y = 0; y < size; ++y) {
-        for (int x = 0; x < size; ++x) {
+    for (int y = 0; y < layout.size(); ++y) {
+        for (int x = 0; x < layout[y].size(); ++x) {
             if (!layout[y][x]) continue;
             int nx = m_curPos.x() + x + dx;
             int ny = m_curPos.y() + y + dy;
@@ -261,9 +260,8 @@ void TetrisBoard::tick()
 void TetrisBoard::lockPiece()
 {
     const auto &layout = currentLayout();
-    int size = layout.size();
-    for (int y = 0; y < size; ++y) {
-        for (int x = 0; x < size; ++x) {
+    for (int y = 0; y < layout.size(); ++y) {
+        for (int x = 0; x < layout[y].size(); ++x) {
             if (!layout[y][x]) continue;
             int gx = m_curPos.x() + x;
             int gy = m_curPos.y() + y;
@@ -310,10 +308,9 @@ TetrisBoard::PieceType TetrisBoard::cellAt(int x, int y) const
     if (x < 0 || x >= WIDTH || y < 0 || y >= HEIGHT) return None;
 
     const auto &layout = currentLayout();
-    int size = layout.size();
     int px = x - m_curPos.x();
     int py = y - m_curPos.y();
-    if (px >= 0 && px < size && py >= 0 && py < size && layout[py][px]) {
+    if (px >= 0 && py >= 0 && py < layout.size() && px < layout[py].size() && layout[py][px]) {
         return m_curPiece;
     }
 
