@@ -248,7 +248,7 @@ void TetrisWindow::drawNextPiece(QPainter &painter)
     int size = layout.size();
 
     for (int y = 0; y < size; ++y) {
-        for (int x = 0; x < size; ++x) {
+         for (int x = 0; x < layout[y].size(); ++x) {
             if (layout[y][x]) {
                 int ci = m_board->pieceColorIdx(nextType);
                 drawBlock(painter, x, y, ci, previewCellSize, sx, sy);
