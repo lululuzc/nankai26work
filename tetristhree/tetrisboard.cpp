@@ -298,7 +298,7 @@ void TetrisBoard::clearLines()
     if (cleared > 0) {
         const int points[] = {0, 100, 300, 500, 800};
         m_lines += cleared;
-        m_score += points[cleared] * m_level;
+        m_score += (cleared <= 4 ? points[cleared] : cleared * 100) * m_level;
         m_level = m_lines / 10 + 1;
         emit scoreChanged(m_score, m_level, m_lines);
         emit linesCleared(cleared);
